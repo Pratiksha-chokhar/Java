@@ -1,0 +1,30 @@
+import java.util.concurrent.SynchronousQueue;
+
+public class SugarFactory {
+
+	private int capacity;
+	private int sugar;
+	
+	SugarFactory(){
+		this.capacity = 5;
+		this.sugar = 0;
+	}
+	
+	SugarFactory(int a, int b){
+		this.capacity = a;
+		this.sugar = b;
+	}
+	
+	public void produce(){
+		System.out.println("Producing Sugars:");
+		this.sugar++;
+	}
+	
+	public void consume(){
+		System.out.println("Producing Sugars:");
+		this.sugar--;
+	}
+	
+	
+	
+}

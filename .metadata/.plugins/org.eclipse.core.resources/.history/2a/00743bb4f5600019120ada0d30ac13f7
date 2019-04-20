@@ -1,0 +1,17 @@
+package com.dac.mycompare;
+import java.util.*;
+
+public class Student {
+	
+	int rollno, age
+	String name
+
+	Student(int rollno,String name, int age)
+	{
+		this.rollno
+		this.name
+		this.age
+		
+	}
+}
+

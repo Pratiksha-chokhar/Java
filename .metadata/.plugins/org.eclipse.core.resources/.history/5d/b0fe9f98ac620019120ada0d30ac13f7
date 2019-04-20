@@ -1,0 +1,18 @@
+
+public class MainAccounts {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		SugarFactory obj = new SugarFactory();
+
+		ProducerThread prod = new ProducerThread();
+		ConsumerThread cons = new ConsumerThread();
+		
+		Thread p = new Thread();
+		Thread c = new Thread();
+		
+		
+	}
+
+}

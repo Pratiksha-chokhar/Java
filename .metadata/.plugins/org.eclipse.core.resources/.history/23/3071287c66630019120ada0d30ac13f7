@@ -1,0 +1,40 @@
+package StringAssign;
+
+import java.util.Iterator;
+import java.util.TreeSet;
+
+
+
+public class Stringlenght {
+	
+	
+	
+	public static void main(String[] args)
+	{
+
+	
+	TreeSet<CompareClass> demo = new TreeSet<>();
+	
+	CompareClass c1= new CompareClass();
+	c1.setName("Atul");
+	c1.setName("ram");	
+	c1.setName("seeta");
+	
+	demo.add(c1);
+	
+	     
+	     Iterator<CompareClass>Itr= demo.iterator();
+	     Object String;
+		while(Itr.hasNext())
+		{
+	  	 CompareClass newvalue = Itr.next();
+	     System.out.println("List is :" +newvalue);
+		}
+	
+		
+	
+	
+	}
+	
+	
+	}

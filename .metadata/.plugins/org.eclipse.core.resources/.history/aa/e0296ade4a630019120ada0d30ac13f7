@@ -1,0 +1,26 @@
+package StringAssign;
+
+import java.util.Iterator;
+import java.util.TreeSet;
+
+public class Stringlenght {
+
+	TreeSet<String> demo = new TreeSet<>();
+	
+	{
+	     demo.add("ram");	
+	     demo.add("seeta");
+	     demo.add("mumbai");
+	     demo.add("amt");
+	     
+	     Iterator<String>Itr= demo.iterator();
+	     Object String;
+		while(Itr.hasNext())
+		{
+	  	String newvalue = Itr.next();
+	     System.out.println("List is :" +newvalue);
+	}
+	
+	
+}
+	}

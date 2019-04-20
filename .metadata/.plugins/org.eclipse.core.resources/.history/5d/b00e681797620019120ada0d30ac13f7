@@ -1,0 +1,11 @@
+package com.dac.NewThread;
+
+public class TestPriorityDemo extends Thread {
+	public void run()
+	{
+
+	
+	Thread t1= Thread.currentThread();
+	System.out.println("My CurrentThread name is ::" +t1.getName());
+}
+}

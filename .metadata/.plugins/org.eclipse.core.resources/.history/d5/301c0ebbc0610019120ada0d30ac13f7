@@ -1,0 +1,13 @@
+package com.dac.java;
+
+public class QuePaper {
+	
+	public static void main(String[] args)
+	{
+    String r = "Hello";
+    String s = "Dms";
+    String u= r+s;
+	String t= new String("helloDms");
+	u.equals(t);
+}
+}

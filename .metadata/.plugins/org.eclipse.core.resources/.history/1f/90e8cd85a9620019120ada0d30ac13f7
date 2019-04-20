@@ -1,0 +1,13 @@
+
+public class SugarFactory {
+
+	int capacity=5;
+	int sugar=0;
+	
+	SugarFactory(){
+		
+	}
+	
+	
+	
+}

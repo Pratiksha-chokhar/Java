@@ -1,0 +1,19 @@
+package StringAssign;
+
+import java.util.Comparator;
+
+public class CompareClass implements Comparator<Stringlength>{
+	
+	
+	public int compareTo(Stringlength s ) {
+		
+		if(String.lenght==0)
+		{
+			return 0;
+			
+		}
+		else if(String.length )
+		
+	}
+
+}

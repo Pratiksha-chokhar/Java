@@ -1,0 +1,20 @@
+package com.dac.java;
+
+public class QuePaper extends Exception {
+	
+	public static void main(String[] args)
+	{
+    try 
+    {
+    	throw new QuePaper();
+    	
+    }catch(QuePaper q)
+    {
+    	System.out.println("got the quepaper exception");
+    }finally
+    {
+    	System.out.println("Inside finaaly block");
+    }
+}
+	
+}

@@ -1,0 +1,18 @@
+
+public class ProducerThread implements Runnable{
+
+	SugarFactory obj;
+	
+	public ProducerThread(SugarFactory obj) {
+		super();
+		this.obj = obj;
+	}
+
+	@Override
+	public void run() {
+
+		// TODO Auto-generated method stub
+		ob1.produce();
+	}
+
+}

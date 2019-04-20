@@ -1,0 +1,29 @@
+
+public class MainAccounts {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		System.out.println("Start of program");
+		
+		SugarFactory obj = new SugarFactory();
+
+		ProducerThread prod = new ProducerThread(obj);
+		ConsumerThread cons = new ConsumerThread(obj);
+		ConsumerThread cons1 = new ConsumerThread(obj);
+		
+		Thread p = new Thread(prod);
+		Thread c = new Thread(cons);
+		
+		Thread d = new Thread(cons1);
+		
+		
+		p.start();
+		c.start();
+		
+		
+		System.out.println("Reached end of program");
+		
+	}
+
+}

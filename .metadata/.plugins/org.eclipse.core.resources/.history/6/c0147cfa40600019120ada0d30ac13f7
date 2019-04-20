@@ -1,0 +1,18 @@
+package com.dac.java;
+
+public class myArray {
+	
+
+	public static void main(String[] args)
+	{
+	int[] a={10,20,30,40};
+	for (int p:a)
+	{
+	System.out.println(p);
+	}
+	}
+	}
+	
+
+	
+

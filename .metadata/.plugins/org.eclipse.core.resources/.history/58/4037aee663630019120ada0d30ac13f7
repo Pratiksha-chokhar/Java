@@ -1,0 +1,17 @@
+package StringAssign;
+
+import java.util.Comparator;
+
+public class CompareClass implements Comparable<String>{
+
+	@Override
+	public int compareTo(String o) {
+		
+		Integer a= new Integer()
+		return 0;
+	}
+
+
+	
+
+		

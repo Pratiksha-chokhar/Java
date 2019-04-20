@@ -1,0 +1,24 @@
+
+public class SugarFactory {
+
+	private int capacity;
+	private int sugar;
+	
+	SugarFactory(){
+		this.capacity = 5;
+		this.sugar = 0;
+	}
+	
+	public void produce(){
+		
+		
+	}
+	
+	public void consume(){
+		
+		
+	}
+	
+	
+	
+}

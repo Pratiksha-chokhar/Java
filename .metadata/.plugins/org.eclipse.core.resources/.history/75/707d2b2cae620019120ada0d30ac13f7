@@ -1,0 +1,24 @@
+
+public class ConsumerThread implements Runnable{
+
+	SugarFactory obj;
+		
+	public ConsumerThread() {
+		super();
+	}
+
+	public ConsumerThread(SugarFactory obj) {
+		super();
+		this.obj = obj;
+	}
+
+
+
+	@Override
+	public void run() {
+
+		// TODO Auto-generated method stub
+		obj.consume();
+	}
+
+}

@@ -1,0 +1,70 @@
+import java.util.concurrent.SynchronousQueue;
+
+public class SugarFactory {
+
+	private int capacity;
+	private int sugar;
+	
+	SugarFactory(){
+		this.capacity = 5;
+		this.sugar = 0;
+	}
+	
+	SugarFactory(int a, int b){
+		this.capacity = a;
+		this.sugar = b;
+	}
+	
+	public void produce(){
+		System.out.println("Producing Sugars:");
+		
+		Thread t = new Thread();
+
+		while(sugar<capacity){
+	
+			this.sugar++;
+			System.out.println("Producer:Sugars Qty:"+sugar);
+			try {
+				t.currentThread().sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+			
+			
+		}
+		
+		System.out.println("Done Producing Sugars:");
+	}
+	
+	public void consume(){
+		System.out.println("Transporting Sugars:");
+		
+		Thread t = new Thread();
+		
+		
+		if(this.capacity==0){
+			t.wait();
+		}
+		
+
+			while(sugar>0){
+			
+				System.out.println("Consumer:Sugars Qty:"+sugar);
+				
+				try {
+					t.currentThread().sleep(1000);
+				} catch (InterruptedException e) {
+					// TODO Auto-generated catch block
+					e.printStackTrace();
+				}
+				
+			}
+		
+		
+		System.out.println("Transportation Done:");
+	}
+	
+	
+	
+}

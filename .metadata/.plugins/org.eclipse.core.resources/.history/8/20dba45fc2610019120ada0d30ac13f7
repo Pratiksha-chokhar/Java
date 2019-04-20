@@ -1,0 +1,21 @@
+package com.dac.java;
+import java.lang.Exception;
+
+public class QuePaper  {
+	
+	public static void main(String[] args)throws Exception
+	{
+		e.printStackTrace();
+    QuePaper q =new QuePaper();
+    q.method();
+    System.out.println("print");
+    
+}
+	public void method(Exception e)throws Exception
+	{
+		e.printStackTrace();
+		throw new Exception();
+	
+	}
+	
+}

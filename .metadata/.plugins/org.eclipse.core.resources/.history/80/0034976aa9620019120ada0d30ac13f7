@@ -1,0 +1,8 @@
+
+public class SugarFactory {
+
+	int sugar=0;
+	
+	
+	
+}
